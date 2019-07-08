@@ -56,16 +56,16 @@ public class JavaApplication43 {
 //        }
 //        System.out.println("Suma total: " + suma);
 
-        int p = 223333345;
-        int var1 = 0;
-        String cifra = Integer.toString(p);
-
-        for (int k = 0; k <= 20; k++) {
-            if(k%5==0){
-            var1 += k;
-            }
-        }
-        System.out.println("var1: " + var1);
+//        int p = 223333345;
+//        int var1 = 0;
+//        String cifra = Integer.toString(p);
+//
+//        for (int k = 0; k <= 20; k++) {
+//            if(k%5==0){
+//            var1 += k;
+//            }
+//        }
+//        System.out.println("var1: " + var1);
 //        
 //        char ultimoCaracter = cifra.charAt(cifra.length() - 1);
 //        if (ultimoCaracter == '5') {
