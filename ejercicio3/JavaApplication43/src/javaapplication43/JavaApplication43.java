@@ -1,11 +1,17 @@
 /*---> 
 dada la siguiente función:
 Y= x^2 – 2x 
+parte1 Finalizado
 Se requiere desarrollar un algoritmo que imprima en pantalla, para valores de x desde 1 a 10, lo siguiente:
+parte2
 ​La suma de todos los valores de Y.
+parte3
 Valores de Y múltiplos de 3.
+parte4
 Suma de los valores de Y múltiplos de 3.
+parte5
 Valores de Y cuyo último dígito sea 5.
+parte6
 Suma de los valores de Y cuyo último dígito es 5.
  */
 package javaapplication43;
