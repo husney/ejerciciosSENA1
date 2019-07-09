@@ -27,7 +27,7 @@ public class JavaApplication43 {
         int suma=0;
         int suma3=0;
         int suma5=0;
-        
+        int resultado=0;
         
         
         
@@ -44,8 +44,8 @@ public class JavaApplication43 {
         System.out.println("La suma de todos los valores de Y es: "+suma);
         System.out.println("---------------------------------------------------------------------------");
         
-        for( int i=1; i <=10;i++ ){     
-            if(i%3==0){                             //multiplos de 3
+        for( int i=1; i <=y;i++ ){     
+            if(i%3==0){                                  //multiplos de 3
                suma3+= i;                               // suma de los multiplos de 3
                 System.out.println( "impar:" +i );          
             }
@@ -53,22 +53,32 @@ public class JavaApplication43 {
         System.out.println("la suma de los multiplos de 3 es: " + suma3);
         System.out.println("---------------------------------------------------------------------------");
         
-        for ( int i=1; i<=10; i++){
-            
-            if(i%5==0){                             // multiplos de 5
-                suma5+=i;                                   // suma de multiplos de 5
-                System.out.println("Multiplo de 5: " + i);
+          
+     
+        for (int i=0; i<=y; i++){
+            String ultimon= Integer.toString(y);
+            char cambio= ultimon.charAt(ultimon.length()-1);
+            if ( cambio == '5'){
+                System.out.print(cambio);
             }
-        }System.out.println("La suma de los multiplos de 5 es: " +suma5);
-        System.out.println("---------------------------------------------------------------------------");
+        }
+ 
         
-        
-        
-        
-        
-        
-        
-        
+         //int p = 223333345;
+//        int var1 = 0;
+//        String cifra = Integer.toString(p);
+//
+//        for (int k = 0; k <= 20; k++) {
+//            if(k%5==0){
+//            var1 += k;
+//            }
+//        }
+//        System.out.println("var1: " + var1);
+//        
+//        char ultimoCaracter = cifra.charAt(cifra.length() - 1);
+//        if (ultimoCaracter == '5') {
+//            System.out.println(ultimoCaracter);
+//            var1+=ultimoCaracter;
         
         
         
